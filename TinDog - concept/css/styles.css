@@ -1,0 +1,168 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-weight: 900;
+  size: 3rem;
+  line-height: 1.5;
+  padding: 20% 0% 5%;
+  text-align: left;
+}
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2;
+}
+h3 {
+  font-weight: bold;
+  color: black;
+}
+p {
+  margin: 5% 10%;
+}
+/* Sekce - rozděleno na barevnou a bílou */
+.colored-section {
+    color: white;
+    background-color: #ff4c68;
+}
+.white-section  {
+    color: grey;
+    background-color: white;
+}
+/* úvodní sekce */
+#title {
+  background-color: #ff4c68;
+
+  padding: 2% 15%;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+}
+.iphone {
+    height: 550px;
+  }
+  .iphone1 {
+    margin-top: 10%;
+    transform: rotate(25deg);
+    height: 610px;
+  }
+  @media (max-width: 1000px) {
+    .iphone1 {
+      position: static;
+      transform: rotate(0deg);
+    }
+  }
+  .tindog {
+    /*logo */
+    font-size: 2rem;
+  }
+#features {
+  padding: 10% 5%;
+  position: relative;
+  text-align: center;
+  height: fit-content;
+  font-size: large;
+}
+/* testimonial sekce */
+#testimonials {
+  padding: 7% 15%;
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+/* tady těma pičovinama jsem posunul ovládací šípky z prezentace */
+.btn1 {
+  right: 100%;
+  left: auto;
+}
+.btn2 {
+  left: 100%;
+}
+/* obrázky reklamy v prezentaci */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#pricing {
+  text-align: center;
+}
+.add {
+  width: 10%;
+  margin: 20px;
+}
+/* velikost obrázků v prezentaci */
+.testimonial-image {
+  /* velikost obrázku měnit pomocí width */
+  width: 10%;
+  /* udělá obrázek kulatý */
+  border-radius: 100%;
+  margin: 20px;
+}
+/* Hlavní nadpis a download buttons */
+.button {
+  text-align: left;
+}
+.nav-item {
+  /* zaměřuje 3 elementy v navbaru */
+  padding: 0% 15px;
+  font-size: 1.5rem;
+}
+/* 2. sekce - loga  */
+.i {
+  font-size: 70px;
+  padding-bottom: 2rem;
+  color: #ef8172;
+}
+.i:hover {
+  color: #ff4c68;
+}
+.row {
+  margin: 3% 10%;
+}
+.pricingh2 {
+  font-size: 3rem;
+  margin: 1rem 10%;
+  margin-bottom: 0px;
+color: black;
+}
+@media (max-width: 1000px) {
+  .pricingh2 {
+    font-size: 2rem;
+  }
+}
+.pricingp {
+  font-size: 1.5rem;
+  margin: 3% 10%;
+  margin-top: 2rem;
+  color: rgb(0, 0, 0);
+}
+/* CTA SECTION */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.fh3 {
+  color: white;
+  padding: 0 5rem;
+  padding: 4rem;
+  font-size: 4rem;
+}
+@media (max-width: 1000px) {
+  .fh3 {
+    margin: 1rem 0px;
+    font-size: 2rem;
+  }
+}
+#footer {
+  margin-top: 3rem;
+  text-align: center;
+}
+.fm {
+  margin-right: 1rem;
+  padding-top: 3rem;
+}
